@@ -2,6 +2,8 @@
 
 Supply chain risk dashboard for consumer goods companies with significant Asia sourcing exposure. Aggregates news, market indicators, and port weather into a weighted risk score with an executive summary and recommended actions.
 
+<!-- TODO: add a dashboard screenshot (docs/dashboard.png) after one real run, then embed it here: ![Dashboard](docs/dashboard.png) -->
+
 ## Features
 
 - **Weighted risk scoring:** Overall = 0.40×News + 0.30×Logistics + 0.20×Commodity + 0.10×Weather (transparent formula)
@@ -18,7 +20,7 @@ Supply chain risk dashboard for consumer goods companies with significant Asia s
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/supply-chain-monitor.git
+git clone https://github.com/s4mluk/supply-chain-monitor.git
 cd supply-chain-monitor
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
